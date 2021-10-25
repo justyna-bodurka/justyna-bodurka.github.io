@@ -1,45 +1,39 @@
 .hero {
-  padding: 74px 16px  0;
+  padding: 74px 16px 88px;
   &__picture {
-      box-sizing: content-box;
+    box-sizing: content-box;
     width: 96px;
     height: 96px;
-    border: 16px solid #F6F9FD;
+    border: 16px solid #f6f9fd;
     border-radius: 50%;
-    
   }
   &__contact {
-     border-radius: 64px;
-      display: flex;
-      justify-content: center;
-      align-self: center;
-      font-weight: bold;
-      font-size: 20px;
-      line-height: 40px;
-      color:#ffff;
-      padding: 4px 24px;
-      background: $textLink;
-      justify-content: center;
-      text-decoration: none;
-      margin-bottom: 88px;
-    
-      
-
+    border-radius: 64px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    color: #ffff;
+    padding: 4px 24px;
+    background: $textLink;
+    justify-content: center;
+    text-decoration: none;
   }
   &__image-container {
-      display: flex;
-      justify-content: center;
-      align-self: center; 
+    display: flex;
+    justify-content: center;
+    align-self: center;
   }
   &__description {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-self: center;
-      
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
   }
-  &__hello{
-      display: none;
+  &__hello {
+    display: none;
   }
   &__header {
     font-style: normal;
@@ -49,7 +43,6 @@
     text-align: center;
     color: $textDark;
     margin-bottom: 16px;
-      
   }
   &__link {
     font-weight: bold;
@@ -65,7 +58,6 @@
     margin-bottom: 48px;
   }
   &__special {
-      color: $blue;
-      
+    color: $blue;
   }
 }
